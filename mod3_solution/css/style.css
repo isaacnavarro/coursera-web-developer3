@@ -1,0 +1,61 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu icon */
+#menu-icon,
+#menu-icon span{
+    border: 1px solid rgb(0,0,0);
+}
+
+/* header */
+header{
+    background-color: rgb(219, 219, 219);
+    padding: 0 !important;
+}
+
+.company-name{
+    font-size: 1.5em;
+    color: rgb(0,0,0);
+}
+
+.navbar{
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 0;
+}
+
+#navbar-options ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#navbar-options a{
+    color: rgb(0,0,0);
+    background-color: rgb(211, 190, 176);
+}
+
+#navbar-options a:hover{
+    color: rgba(0,0,0,.3);
+    background-color: rgba(211, 190, 176, .8);
+}
+
+/* main content */
+.main-content{
+    background-color: rgb(48, 44, 44);
+    color: rgb(255, 255, 255);
+    min-height: 1000px;
+    width: 95%;
+}
+
+@media (max-width: 768px){
+    .main-content{
+        width: 75%;
+    }
+}
